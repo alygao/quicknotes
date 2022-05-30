@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/noteListFragment">
+
+    <fragment
+        android:id="@+id/addEditNoteFragment"
+        android:name="com.example.a4_basic.AddEditNoteFragment"
+        android:label="fragment_add_edit_note"
+        tools:layout="@layout/fragment_add_edit_note" >
+        <action
+            android:id="@+id/action_addNote_to_noteList"
+            app:destination="@id/noteListFragment" />
+        <argument
+            android:name="noteId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteListFragment"
+        android:name="com.example.a4_basic.NoteListFragment"
+        android:label="fragment_note_list"
+        tools:layout="@layout/fragment_note_list" >
+        <action
+            android:id="@+id/action_noteList_to_addNote"
+            app:destination="@id/addEditNoteFragment" />
+        <action
+            android:id="@+id/action_noteList_to_singleNote"
+            app:destination="@id/singleNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleNoteFragment"
+        android:name="com.example.a4_basic.SingleNoteFragment"
+        android:label="SIngleNoteFragment"
+        tools:layout="@layout/fragment_single_note">
+        <action
+            android:id="@+id/action_singleNote_to_addEditNote"
+            app:destination="@id/addEditNoteFragment" />
+        <argument
+            android:name="noteId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

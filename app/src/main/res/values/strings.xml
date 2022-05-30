@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">A4 Notes (a28gao)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="save">Save</string>
+    <string name="important">Important</string>
+    <string name="add_new_note">Add New Note</string>
+    <string name="clear">Clear</string>
+    <string name="random">Random</string>
+    <string name="add">Add</string>
+    <string name="important_char">!</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="important_chip">important</string>
+</resources>
