@@ -13,6 +13,9 @@
 - Search for notes by key word(s)
 
 ## Video Demo
+https://user-images.githubusercontent.com/51086802/170935892-e55a7a22-3b6e-42f5-a027-0598bf1503e3.mp4
+
+
 
 ## Technologies Used
 * Android Studio Arctic Fox | 2020.3.1 Patch 3
