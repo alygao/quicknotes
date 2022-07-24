@@ -1,5 +1,5 @@
 
-# 📝 Note Organizer (Android App)
+# 📝 Quicknotes (Android App)
 
 ## Table of Contents
 * [Features](#features)
